@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    background: lightgoldenrodyellow;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color:navy;
+}
+p,label{
+    color:black;
+    font: 20px;
+}
+form{
+    background-color:white;
+    border: 5px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    display:inline-block;
+    text-align: left;
+}
+input,textarea{
+    width: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border:1px solid silver;
+    border-radius: 5px;
+}
+.navbar{
+    background-color: darkslategray;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    padding-left: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar a:hover{
+    background-color: teal;
+}
